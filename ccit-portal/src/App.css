@@ -32,11 +32,11 @@ body {
 }
 
 .main-header h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 1000;
-  text-shadow: 2px 2px 4px rgba(171, 171, 171, 0.5);
+  text-shadow: 10px 10px 20px rgba(171, 171, 171, 0.5);
 }
 
 /* Layout Grid */
@@ -50,7 +50,7 @@ body {
 }
 
 .program-card {
-  background: linear-gradient(135deg, #a93226 0%, #7b241c 100%);
+  background: linear-gradient(135deg, #97281d 0%, #7b241c 100%);
   border-radius: 12px;
   padding: 15px;
   position: relative;
@@ -62,9 +62,9 @@ body {
   height: 380px;
 }
 
-.program-card:hover {
+/* .program-card:hover {
   transform: skewX(-5deg) translateY(-5px);
-}
+} */
 
 .program-card > * {
   transform: skewX(5deg);
@@ -72,8 +72,9 @@ body {
 
 .card-decoration-icon {
   position: absolute;
-  top: 10px;
-  right: 15px;
+  bottom: 0;
+  right: 0;
+  transform: translate(-500%,-200%);
   opacity: 0.1;
   width: 60px;
   height: 60px;
@@ -81,7 +82,7 @@ body {
   z-index: 0;
 }
 
-/* --- RESIZED 3D CAROUSEL --- */
+/* --- RESIZED 3D CAROUSEL UPDATES --- */
 .image-carousel {
   position: relative;
   height: 200px;
@@ -95,8 +96,13 @@ body {
 .carousel-slide {
   position: absolute;
   border-radius: 10px;
-  background-size: cover;
-  background-position: center;
+  
+  /* UPDATED: Handle Portrait Images */
+  background-size: contain;      /* Ensures the whole image is seen */
+  background-repeat: no-repeat;  /* Prevents tiling */
+  background-position: center;   /* Centers the image */
+  background-color: rgba(0,0,0,0.6); /* Dark background for empty space around portrait images */
+  
   box-shadow: 0 6px 15px rgba(0,0,0,0.5);
   transition: all 0.5s ease-in-out;
   cursor: pointer;
@@ -108,6 +114,7 @@ body {
   z-index: 10;
   transform: translateX(0) scale(1);
   opacity: 1;
+  border: 1px solid rgba(255,255,255,0.2); /* Optional: subtle border */
 }
 
 .slide-prev {
@@ -192,10 +199,17 @@ body {
 /* CTA Section */
 .cta-section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-top: 10px;
+}
+
+.cta-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .speech-bubble {
@@ -222,7 +236,103 @@ body {
   border-color: transparent transparent transparent white;
 }
 
+
 .mascot-container{
   width: 300px;
   height: 300px;
+}
+
+/* FAQ Dropdown Styling */
+.faq-dropdown {
+  margin-top: -10px; /* Pull it closer to the mascot */
+  padding: 10px;
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid #fff;
+  border-radius: 8px;
+  color: #8b0000;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.85rem;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: all 0.2s ease;
+}
+
+.faq-dropdown:hover {
+  background-color: white;
+  transform: translateY(-2px);
+}
+
+footer{
+  opacity: 0.5;
+}
+
+/* Modal Overlay - Dark background */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9); /* Dark semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure it sits on top of everything */
+  animation: fadeIn 0.3s ease;
+  backdrop-filter: blur(5px);
+}
+
+/* The container for the image */
+.modal-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* The actual image in the modal */
+.modal-content img {
+  width: 100%;
+  height: 80lvh;
+  object-fit: contain; /* Ensures image isn't stretched */
+  max-height: 90vh;
+  display: block;
+}
+
+/* Close Button (X) */
+.modal-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
+
+.modal-close-btn:hover {
+  background-color: white;
+  color: #8b0000;
+  transform: rotate(90deg);
+}
+
+/* Simple fade in animation for the modal */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }

@@ -5,133 +5,127 @@
                 "title": "ISITE Competition",
                 "description": "Angelo Depone (BATCH 2023) won 3rd place in Python and Jerald Malabanan (BATCH 2022) won 3rd place in Javascript.",
                 "course": "BSCS and BSEMC",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=ISITE+Competition"
+                "image": "/images/isite2022.png"
             },
             {
                 "title": "Top Student in Tertiary School",
                 "description": "Kim Darnell Magtibay recognized as Top Student in Tertiary School for the 1st Semester of SY 2022-2023.",
                 "course": "BSIT",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=Top+Student"
+                "image": "/images/kim.png"
             },
             {
                 "title": "ISITExStackLeague Challenge",
                 "description": "Loui Andre Palo (Rank 3), AJ Mendoza Jr. (Rank 6), and Kurt Jansen Maleon (Rank 8) were declared winners.",
                 "course": "BSCS",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=StackLeague"
+                "image": "/images/isite2023.png"
             },
             {
                 "title": "CodeQuest Competition",
                 "description": "Ian Paulo Melu (Champion), Daniel De Lara (1st runner-up), and Reinald Jaspeo (2nd runner-up).",
                 "course": "BSCS and BSIT",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=CodeQuest"
+                "image": "/images/codequest.png"
             },
             {
                 "title": "National IT Skills Programming Competition",
                 "description": "FAITH-CCIT secured top placements in the ISITE National IT Skills Competition",
                 "course": "CCIT",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=National+IT+Skills"
+                "image": "/images/nitsc.png"
             },
             {
                 "title": "National IT Skills (Java/C++)",
                 "description": "Ian Paulo Melu (Champion Java), Daniel De Lara (Champion C++), Kurt Jansen Maleon (1st runner-up C#).",
                 "course": "BSCS and BSIT",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=Programming+Champs"
+                "image": "/images/nitsc2.png"
             },
             {
-                "title": "Mobile Legend Tournament",
-                "description": "Ian Paulo Melu, Daniel De Lara, and ML Team 1 emerged as champions.",
+                "title": "ISITE 2024 Competition",
+                "description": "Students of CCIT participated and won in multiple events of ISITE's 2024 competitions.",
                 "course": "BSCS and BSIT",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=ML+Tournament"
+                "image": "/images/isite2024.png"
             },
             {
                 "title": "16th NOCEI Research Forum",
-                "description": "Congratulating Dean Maricel Gaspar and Faculty for outstanding achievements.",
-                "course": "CCIT",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=Research+Forum"
-            },
-            {
-                "title": "KMC Hackathon 2024",
-                "description": "Team Bravehearts won 2nd Runner-up.",
-                "course": "BSCS, BSIT",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=KMC+Hackathon"
+                "description": "Dean Maricel Gaspar along with other Faculty members and BSEMC students were awarded for outstanding achievements.",
+                "course": "BSIT and BSEMC",
+                "image": "/images/nocei.png"
             },
             {
                 "title": "CodeChum's National Programming Challenge 2024",
                 "description": "Our CCIT Team conquered a spot for the Grand Finals.",
                 "course": "CCIT",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=CodeChum+2024"
+                "image": "/images/codechum.png"
             },
             {
                 "title": "CodeQuest Season 3",
                 "description": "Glenn Allen Agno claimed the Top spot in Season 3.",
                 "course": "BSIT",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=CodeQuest+S3"
+                "image": "/images/codequest2.png"
             },
             {
                 "title": "ArtVenture Season 3",
                 "description": "Reimagining Philippine Mythological Creatures.",
                 "course": "BSEMC",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=ArtVenture"
+                "image": "/images/artventure.png"
             },
             {
                 "title": "Highest GWA (1st Sem)",
                 "description": "Daniel De Lara achieved the highest GWA among all tertiary students.",
                 "course": "BSCS",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=Highest+GWA"
+                "image": "/images/daniel.png"
             },
             {
                 "title": "Regional Higher Education Press Conference",
-                "description": "Jhonell Bryan Ramilo and Kian Jericho Abrantes secured medals.",
+                "description": "Jhonell Bryan Ramilo and Kian Jericho Abrantes secured medals for their works.",
                 "course": "BSEMC",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=Press+Conference"
+                "image": "/images/rhepc.png"
             },
             {
                 "title": "National IT Skills Excellence",
                 "description": "Showcasing excellence at the National IT Skills Competition.",
                 "course": "BSCS",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=IT+Skills+Excellence"
+                "image": "/images/nitsc3.png"
             },
             {
                 "title": "PACUCUOA Level IV Accreditation",
-                "description": "Awarded the highest level of academic recognition.",
+                "description": "CCIT was awarded the highest level of academic recognition under PACUCOA.",
                 "course": "BSCS and BSIT",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=Level+IV+Accreditation"
+                "image": "/images/pacucoa.png"
             },
             {
                 "title": "Highest GWA (2nd Sem)",
-                "description": "Daniel De Lara achieved the highest GWA among all tertiary students again.",
+                "description": "Daniel De Lara achieved the highest GWA among all tertiary students for the 2nd time.",
                 "course": "BSCS",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=Highest+GWA+2"
+                "image": "/images/daniel2.png"
             },
             {
-                "title": "ASEAN 2025 Presenter",
-                "description": "Trisha Francine Timog — ASEAN Best Presenter 2025.",
-                "course": "BSEMC",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=ASEAN+2025"
+                "title": "ASEAN 2025",
+                "description": "Trisha Francine Timog was awarded as the best presenter as well as best project in the year's ASEAN Celebration",
+                "course": "BSIT",
+                "image": "/images/asean.png"
             },
             {
                 "title": "Philippine Start-Up Challenge X",
-                "description": "CCIT earns top 8 at the Regional Pitching Competition.",
+                "description": "BSIT students earns top 8 at DICT's Regional Pitching Competition.",
                 "course": "BSIT",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=StartUp+Challenge"
+                "image": "/images/protek.png"
             },
             {
                 "title": "CodeChum National 2025 (3rd Place)",
-                "description": "10 students competed and brought home a 3rd place finish.",
+                "description": "10 students competed and brought home a 3rd place finish in Codechum's National Programming Competition semi-finals.",
                 "course": "BSCS and BSIT",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=CodeChum+3rd"
+                "image": "/images/codechum2.png"
             },
             {
                 "title": "CodeChum National 2025 (Rank 6)",
-                "description": "Proudly secured 6th place out of 64 schools nationwide.",
-                "course": "CCIT",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=CodeChum+Rank+6"
+                "description": "CCIT proudly secured 6th place out of 64 schools nationwide.",
+                "course": "BSCS and BSIT",
+                "image": "/images/codechum3.png"
             },
             {
-                "title": "KMC Hackathon Team",
-                "description": "Team Bravehearts won 2nd runner up.",
+                "title": "KMC Hackathon",
+                "description": "Team Bravehearts won 2nd runner up in KMC's pitching competition.",
                 "course": "BSCS and BSIT",
-                "image": "https://placehold.co/600x400/8b0000/FFF?text=Team+Bravehearts"
+                "image": "/images/kmc.png"
             }
         ]
     }
