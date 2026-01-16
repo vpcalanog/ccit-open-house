@@ -14,6 +14,22 @@ body {
   overflow: hidden; 
 }
 
+body::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./smoke.jpg'); 
+  background-repeat: repeat;
+  background-size: cover;
+  opacity: 0.1; 
+  z-index: -1;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+}
+
 .app-container {
   max-width: 95vw;
   margin: 0 auto;
@@ -307,15 +323,15 @@ footer{
 /* Close Button (X) */
 .modal-close-btn {
   position: absolute;
-  top: 20px;
-  right: 30px;
+  top: 50px;
+  right: 50px;
   background: transparent;
   border: 2px solid white;
   color: white;
-  font-size: 1.5rem;
+  font-size: 4  .5rem;
   font-weight: bold;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   cursor: pointer;
   transition: all 0.2s ease;
