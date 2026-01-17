@@ -36,7 +36,7 @@ const faqData = [
   { question: "What jobs can I get with an IT degree?", answer: "IT graduates can work as support specialists, network admins, developers, system analysts, or project managers." },
   { question: "What jobs can I get with a CS degree?", answer: "CS graduates become developers, data scientists, AI engineers, or software architects." },
   { question: "What jobs can I get with an EMC degree?", answer: "EMC graduates often become game developers, animators, AR/VR specialists, or multimedia designers." },
-  { question: "How long is the CS program?", answer: "CS, IT, and EMC programs typically take 4 years including an internship or OJT." },
+  { question: "How long are these programs?", answer: "CS, IT, and EMC programs typically take 4 years including an internship or OJT." },
   { question: "Examples of subjects in IT, CS, and EMC?", answer: "IT: Networking, Security. CS: Algorithms, AI. EMC: Game Design, Multimedia Systems." },
   { question: "Are these programs accredited?", answer: "Yes, IT, CS, and EMC are CHED-recognized and may also be accredited by PAASCU or AACCUP." },
 ];
