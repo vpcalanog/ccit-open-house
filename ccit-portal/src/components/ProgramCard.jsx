@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import achievementsData from '../achievements.json';
 
 const getAchievementsForProgram = (programId) => {
@@ -24,23 +24,21 @@ const ProgramCard = ({ program }) => {
   const programAchievements = getAchievementsForProgram(program.id);
   const len = programAchievements.length;
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     setCurrentIndex((prev) => (prev === len - 1 ? 0 : prev + 1));
-  };
+  }, [len]);
 
-  const prevSlide = () => {
+  const prevSlide = useCallback(() => {
     setCurrentIndex((prev) => (prev === 0 ? len - 1 : prev - 1));
-  };
+  }, [len]);
 
   useEffect(() => {
-    if (len <= 1 || modalImage) return;
+  if (len <= 1 || modalImage) return;
 
-    const interval = setInterval(() => {
-      nextSlide();
-    }, 10000);
+  const interval = setInterval(nextSlide, 10000);
 
-    return () => clearInterval(interval);
-  }, [currentIndex, len, modalImage]);
+  return () => clearInterval(interval);
+}, [len, modalImage, nextSlide]);
 
   const openModal = (image) => {
     setModalImage(image);
