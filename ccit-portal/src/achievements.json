@@ -28,7 +28,7 @@
             {
                 "title": "National IT Skills Programming Competition",
                 "description": "FAITH-CCIT secured top placements in the ISITE National IT Skills Competition",
-                "course": "CCIT",
+                "course": "BSCS",
                 "image": "/images/nitsc.png"
             },
             {
@@ -126,6 +126,48 @@
                 "description": "Team Bravehearts won 2nd runner up in KMC's pitching competition.",
                 "course": "BSCS and BSIT",
                 "image": "/images/kmc.png"
+            },
+            {
+                "title": "Bakwit Finder",
+                "description": "A one-stop app by CCIT professors, students, and FAITH IT employees that lets users check evacuation center profiles and locate evacuated relatives, locally or abroad.",
+                "course": "BSCS and BSIT",
+                "image": "/images/bakwitfinder.jpeg"
+            },
+            {
+                "title": "Snapfolia",
+                "description": "A web app for accurate leaf classification by the FAITH CS 2024 batch.",
+                "course": "BSCS",
+                "image": "/images/snapfolia.png"
+            },
+            {
+                "title": "TESDA Animation NCIII",
+                "description": "A certification focused on advanced animation skills and industry-standard techniques.",
+                "course": "BSEMC",
+                "image": "/images/tesda.jpeg"
+            },
+            {
+                "title": "CompTIA ITF+",
+                "description": "An entry-level certification covering IT fundamentals, including hardware, software, and basic troubleshooting.",
+                "course": "CCIT",
+                "image": "/images/comptiaitf.png"
+            },
+            {
+                "title":"Tied Highest GPA",
+                "description":"Two students from BSEMC both had the highest GPA for the 2nd semester of 2022-2023",
+                "course":"BSEMC",
+                "image":"/images/bengernard.png"
+            },
+            {
+                "title":"TEENOVATE 2025",
+                "description":"An outreach program for the Senior High School ICT Strand of St. John Academy of Visual and Performing Arts, Inc.",
+                "course":"CCIT",
+                "image":"/images/teenovate.jpg"
+            },
+            {
+                "title":"Animahenasyon",
+                "description":"An outreach program for the Senior High School ICT Strand of St. John Academy of Visual and Performing Arts, Inc.",
+                "course":"BSEMC",
+                "image":"/images/animahinasyon.png"
             }
         ]
     }
