@@ -115,6 +115,9 @@ function App() {
               </select>
         </div>
       </main>
+      <footer>
+        If you have something to add, feel free to let us know
+      </footer>
       {/* <footer>
         Design: Xandra Yvonne Galicia |
         Web Development: Vince Paulo Calanog |
