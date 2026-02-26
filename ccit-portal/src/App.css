@@ -352,3 +352,53 @@ footer{
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+/* Hue Hurry modal specifics */
+.hue-modal .hue-content {
+  width: 90vw;
+  height: 90vh;
+  max-width: 1200px;
+  max-height: 800px;
+  position: relative;
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.hue-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Floating launch button for Hue Hurry! */
+.launch-hue {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 2000;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: white;
+  color: #8b0000;
+  border: 2px solid rgba(255,255,255,0.9);
+  font-weight: 800;
+  font-size: 1.25rem; /* bigger for play icon */
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.launch-hue:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.45);
+}
+
+.launch-hue:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(255,255,255,0.08);
+}

@@ -79,6 +79,13 @@ function App() {
     }
   };
 
+  const [hueOpen, setHueOpen] = useState(false);
+
+  const launchHueHurry = () => {
+    // toggle modal visibility instead of opening a new window
+    setHueOpen(true);
+  };
+
   return (
     <div className="app-container">
       <header className="main-header">
@@ -118,6 +125,30 @@ function App() {
       <footer>
         If you have something to add, feel free to let us know
       </footer>
+      <button
+        className="launch-hue"
+        title="Play Hue Hurry"
+        aria-label="Play Hue Hurry"
+        onClick={launchHueHurry}
+      >
+        ▶
+      </button>
+
+      {hueOpen && (
+        <div className="modal-overlay hue-modal" onClick={() => setHueOpen(false)}>
+          <div className="modal-content hue-content" onClick={e => e.stopPropagation()}>
+            <button className="modal-close-btn" onClick={() => setHueOpen(false)}>
+              ✕
+            </button>
+            <iframe
+              src="https://hue-hurry.vercel.app"
+              title="Hue Hurry"
+              className="hue-iframe"
+              sandbox="allow-scripts allow-same-origin allow-forms"
+            ></iframe>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
