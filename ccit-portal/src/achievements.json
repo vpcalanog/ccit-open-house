@@ -152,22 +152,22 @@
                 "image": "/images/comptiaitf.png"
             },
             {
-                "title":"Tied Highest GPA",
-                "description":"Two students from BSEMC both had the highest GPA for the 2nd semester of 2022-2023",
-                "course":"BSEMC",
-                "image":"/images/bengernard.png"
+                "title": "Tied Highest GPA",
+                "description": "Two students from BSEMC both had the highest GPA for the 2nd semester of 2022-2023",
+                "course": "BSEMC",
+                "image": "/images/bengernard.png"
             },
             {
-                "title":"TEENOVATE 2025",
-                "description":"An outreach program for the Senior High School ICT Strand of St. John Academy of Visual and Performing Arts, Inc.",
-                "course":"CCIT",
-                "image":"/images/teenovate.jpg"
+                "title": "TEENOVATE 2025",
+                "description": "An outreach program for the Senior High School ICT Strand of St. John Academy of Visual and Performing Arts, Inc.",
+                "course": "CCIT",
+                "image": "/images/teenovate.jpg"
             },
             {
-                "title":"Animahenasyon",
-                "description":"An outreach program for the Senior High School ICT Strand of St. John Academy of Visual and Performing Arts, Inc.",
-                "course":"BSEMC",
-                "image":"/images/animahinasyon.png"
+                "title": "Animahenasyon",
+                "description": "An outreach program for the Senior High School ICT Strand of St. John Academy of Visual and Performing Arts, Inc.",
+                "course": "BSEMC",
+                "image": "/images/animahinasyon.png"
             }
         ]
     }

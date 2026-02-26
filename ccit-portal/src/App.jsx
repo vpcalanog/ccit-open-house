@@ -118,12 +118,6 @@ function App() {
       <footer>
         If you have something to add, feel free to let us know
       </footer>
-      {/* <footer>
-        Design: Xandra Yvonne Galicia |
-        Web Development: Vince Paulo Calanog |
-        3D Model: Elijah Japeth Ramos |
-        Animation: John Benedict Palomeno
-      </footer> */}
     </div>
   );
 }
